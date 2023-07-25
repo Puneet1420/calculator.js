@@ -1,7 +1,7 @@
-let section = document.querySelector("section"),
-  icons = document.querySelector(".icons");
+let section = document.querySelector("section");
+let icon = document.getElementById("icon");
 
-icons.onclick = () => {
+icon.onclick = () => {
   section.classList.toggle("dark");
 };
 
